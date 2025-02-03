@@ -9,7 +9,9 @@ Questo progetto genera un database SQLite con studenti, corsi e iscrizioni utili
 
 ## Requisiti
 - Python 3.x
-- Moduli richiesti (installabili con pip):
+- Moduli richiesti (installabili con pip): 
+   - sqlite3
+   - faker
   
 
   
@@ -18,8 +20,9 @@ Questo progetto genera un database SQLite con studenti, corsi e iscrizioni utili
 ## Installazione e Utilizzo
 1. Clona il repository:
    
-sh
+
    git clone https://github.com/iz2rpn/universitydb-generator.git
+
    cd universitydb-generator
 
 2. Installa i requisiti:
